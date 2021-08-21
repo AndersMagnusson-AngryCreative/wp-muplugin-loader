@@ -213,7 +213,7 @@ class MULoaderPlugin implements PluginInterface, EventSubscriberInterface {
 		return $separator;
 	}
 
-	public function deactivate() {
+	public function deactivate( \Composer\Composer $composer, \Composer\IO\IOInterface $io) {
 
 	}
 
