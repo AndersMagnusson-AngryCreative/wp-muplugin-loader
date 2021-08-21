@@ -217,7 +217,7 @@ class MULoaderPlugin implements PluginInterface, EventSubscriberInterface {
 
 	}
 
-	public function uninstall() {
+	public function uninstall( \Composer\Composer $composer, \Composer\IO\IOInterface $io ) {
 
 	}
 }
