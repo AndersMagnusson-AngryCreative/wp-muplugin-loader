@@ -212,4 +212,12 @@ class MULoaderPlugin implements PluginInterface, EventSubscriberInterface {
 
 		return $separator;
 	}
+
+	public function deactivate() {
+
+	}
+
+	public function uninstall() {
+
+	}
 }
